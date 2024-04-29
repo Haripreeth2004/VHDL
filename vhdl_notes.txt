@@ -1,0 +1,17 @@
+hi im techie HP commited to learn hardware description language (VHDL) in Very high speed integrated circuits.
+
+Keypoints:
+     # VHDL is not a software its a Hardware Description language
+     # FPGA - Field Programmable Gate Array
+     # FPGA are nothing but we are going to design the logic cells are arranged in array which is used as processsor
+     # There are three types of level to design a fpga they are,
+                 1.Behavourial Level
+                 2.Gate Level
+                 3.Logic Level
+     # We are going to design the fpga by using flow of firstly Behavourial to gate level synthesis then logic level then check the results as waveforms.
+     # Xilinx by AMD are used for the design as VIVADO
+     # ALtera by INTEL are also used for the design as Quartus
+
+
+
+
