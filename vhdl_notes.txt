@@ -11,6 +11,26 @@ Keypoints:
      # We are going to design the fpga by using flow of firstly Behavourial to gate level synthesis then logic level then check the results as waveforms.
      # Xilinx by AMD are used for the design as VIVADO
      # ALtera by INTEL are also used for the design as Quartus
+     # HDL requires two block of code they are Interface and Behaviour
+     # Interface ---> VHDL entity :::: Behaviour ---> VHDL architecture
+     # Entity syntax defines Interface and associated with one or more architecture
+     # Architecture defines Behavioural and associated with single entity
+     # Internal signals are more important in concurrent syntax
+     # There are two types of definition of codes they are Sequential and Concurrent 
+     # bit ---> 0 or 1
+     # bit_vector ---> group of bit ( left index :: Direction :: Right index)
+          example: ( 3 downto 0)
+     # All inputs must be on the sensitivity list in process (sensitivity list)
+          example : process(A,B,SEL)
+     # In hardware all the transistors in our chip are going to be operating at the same time. This is known as hardware model and executed in simultaneously manner.
+     # Similarly in software model they are executed in sequentially ordered.
 
+     # In VHDL the comments are denoted as dash - dash 
+          example : -- This is a comment
+     # VHDL Simulators ===> 
+          => ModelSim (Intel/Altera) -- User Interface Simulator
+          => Vivado (Xilinx) -- User Interface Simulator
+          => GHDL -- Command line based simulator using GTK wave software for waveforms results
+          => EDAPLAYGROUND -- Website based simulator
 
 
